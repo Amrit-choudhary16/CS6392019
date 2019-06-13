@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bernesemountaindog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.bernesemountaindog.BerneseMountainDogFragment">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_margin="12dp"
+            app:srcCompat="@drawable/small1" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_margin="12dp"
+            app:srcCompat="@drawable/midsmall1" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_margin="12dp"
+            app:srcCompat="@drawable/medium1" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:layout_margin="12dp"
+            app:srcCompat="@drawable/big1" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:layout_margin="12dp"
+            app:srcCompat="@drawable/extralarge1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_margin="12dp"
+            android:text="xxhdpi image"
+            android:textColor="#f4B41A"
+            android:textColorHighlight="#C51162"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:layout_margin="12dp"
+            android:text="xhdpi image"
+            android:textColor="#F4B41A"
+            android:textColorHighlight="#C51162"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:layout_margin="12dp"
+            android:text="hdpi image"
+            android:textColor="#F4B41A"
+            android:textColorHighlight="#C51162"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:layout_margin="12dp"
+            android:text="mdpi image"
+            android:textColor="#F4B41A"
+            android:textColorHighlight="#C51162"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_margin="12dp"
+            android:text="xxxhdpi image"
+            android:textColor="#F4B41A"
+            android:textColorHighlight="#C51162"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+    </GridLayout>
+</LinearLayout>
